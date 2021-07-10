@@ -30,8 +30,8 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: my-nginx-my-autucaling
 spec:
-  scaleTargetRef:
-    apiVersion: apps/v2beta1v1
+  scaleTargetRef:    
+    apiVersion: apps/v1
     kind: Deployment
     name: my-nginx-autoscaling
   minReplicas: 2  
