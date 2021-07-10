@@ -31,7 +31,8 @@ metadata:
   name: my-nginx-my-autucaling
 spec:
   scaleTargetRef:    
-    apiVersion: apps/v1
+    #apiVersion: apps/v1
+    apiVersion: autoscaling/v2beta1
     kind: Deployment
     name: my-nginx-autoscaling
   minReplicas: 2  
