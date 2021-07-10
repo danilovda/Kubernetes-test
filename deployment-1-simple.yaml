@@ -22,4 +22,4 @@ spec:
         - name : nginx
           image: nginx
           ports:
-            - containersPort: 80   
+            - containerPort: 80   
