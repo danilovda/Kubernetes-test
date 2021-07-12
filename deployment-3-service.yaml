@@ -37,6 +37,6 @@ spec:
       protocol  : TCP
       port      : 80  # Port on Load Balancer
       targetPort: 80  # Port on POD
-type: LoadBalancer       
+  type: LoadBalancer       
 
              
